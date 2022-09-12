@@ -24,7 +24,7 @@ const fetchChannelReducer = createSlice({
 	initialState,
 	reducers: {},
 	extraReducers: (builder) => {
-		builder.addCase(fetchChannel.fulfilled, (state: any, action) => {
+		builder.addCase(fetchChannel.fulfilled, (state, action) => {
 			state.channel = action.payload;
 		});
 	},
