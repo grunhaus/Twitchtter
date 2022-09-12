@@ -1,12 +1,12 @@
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
 import React, { useEffect } from "react";
-import ChannelCreate from "../components/ChannelCreate";
-import { useAppDispatch, useAppSelector } from "../redux/store";
+import ChannelCreate from "../../components/ChannelCreate";
+import { useAppDispatch, useAppSelector } from "../../app/store";
 import { Link } from "react-router-dom";
 import { Avatar, Button } from "antd";
 import { UserOutlined, EditOutlined, DeleteOutlined } from "@ant-design/icons";
-import { fetchChannels } from "../redux/channels.slices";
+import { fetchChannels } from "./channels.slices";
 import { shallowEqual } from "react-redux";
 
 const channelsListContainer = css({

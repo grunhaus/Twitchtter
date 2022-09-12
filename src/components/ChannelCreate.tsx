@@ -1,7 +1,7 @@
 import React from "react";
 import ChannelForm from "./ChannelForm";
-import { createChannel } from "../redux/channels.slices";
-import { useAppDispatch } from "../redux/store";
+import { createChannel } from "../features/channels/channels.slices";
+import { useAppDispatch } from "../app/store";
 
 const ChannelCreate: React.FC = () => {
 	const dispatch = useAppDispatch();

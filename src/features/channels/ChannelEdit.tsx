@@ -1,10 +1,10 @@
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
 import React, { useEffect } from "react";
-import { useAppDispatch, useAppSelector } from "../redux/store";
-import ChannelForm from "../components/ChannelForm";
-import { editChannel } from "../redux/channels.slices";
-import { fetchChannel } from "../redux/channel.slice";
+import { useAppDispatch, useAppSelector } from "../../app/store";
+import ChannelForm from "../../components/ChannelForm";
+import { editChannel } from "./channels.slices";
+import { fetchChannel } from "./channel.slice";
 import { useParams, useNavigate } from "react-router-dom";
 
 const channelFormContainer = css`

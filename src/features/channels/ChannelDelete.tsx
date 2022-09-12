@@ -1,9 +1,9 @@
-import Modal from "../components/Modal";
+import Modal from "../../components/Modal";
 import { Link, useParams, useNavigate } from "react-router-dom";
-import { deleteChannel } from "../redux/channels.slices";
-import { fetchChannel } from "../redux/channel.slice";
+import { deleteChannel } from "./channels.slices";
+import { fetchChannel } from "./channel.slice";
 import { useEffect } from "react";
-import { useAppDispatch } from "../redux/store";
+import { useAppDispatch } from "../../app/store";
 
 const ChannelDelete: React.FC = () => {
 	const navigate = useNavigate();

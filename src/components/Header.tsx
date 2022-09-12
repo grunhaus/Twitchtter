@@ -3,7 +3,7 @@ import { css } from "@emotion/react";
 import React from "react";
 import { Link } from "react-router-dom";
 import logoMain from "../assets/logo.png";
-import GoogleAuth from "./auth/GoogleAuth";
+import GoogleAuth from "../features/auth/GoogleAuth";
 
 const logoStyling = css({
 	width: "35px",

@@ -2,9 +2,9 @@
 import { useEffect, useRef } from "react";
 import { css } from "@emotion/react";
 import flv from "flv.js";
-import { fetchChannel } from "../redux/channel.slice";
+import { fetchChannel } from "./channel.slice";
 import { useParams } from "react-router-dom";
-import { useAppDispatch, useAppSelector } from "../redux/store";
+import { useAppDispatch, useAppSelector } from "../../app/store";
 
 const descriptionStyling = css({
 	marginTop: "15px",

@@ -1,11 +1,11 @@
 import * as React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import ChannelDelete from "../screens/ChannelDelete";
-import ChannelEdit from "../screens/ChannelEdit";
-import ChannelList from "../screens/ChannelList";
-import ChannelShow from "../screens/ChannelShow";
+import ChannelDelete from "../features/channels/ChannelDelete";
+import ChannelEdit from "../features/channels/ChannelEdit";
+import ChannelList from "../features/channels/ChannelList";
+import ChannelShow from "../features/channels/ChannelShow";
 import { routes } from "../shared/routes";
-import Layout from "./Layout";
+import Layout from "../components/Layout";
 
 const App: React.FC = () => {
 	return (

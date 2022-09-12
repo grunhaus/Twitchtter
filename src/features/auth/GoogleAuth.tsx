@@ -4,8 +4,8 @@ import { css } from "@emotion/react";
 import { GoogleOutlined } from "@ant-design/icons";
 import { Button } from "antd";
 import { useDispatch, shallowEqual } from "react-redux";
-import { signIn, signOut } from "../../redux/auth.slices";
-import { useAppSelector } from "../../redux/store";
+import { signIn, signOut } from "./auth.slices";
+import { useAppSelector } from "../../app/store";
 
 declare global {
 	interface Window {

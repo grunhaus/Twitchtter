@@ -1,5 +1,5 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import channels from "../apis/channels";
+import channels from "../../apis/channels";
 
 export const fetchChannels = createAsyncThunk(
 	"Channels/fetchChannels",

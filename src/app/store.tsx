@@ -1,8 +1,8 @@
 import { configureStore } from "@reduxjs/toolkit";
-import authReducer from "../redux/auth.slices";
-import channelsReducer from "./channels.slices";
+import authReducer from "../features/auth/auth.slices";
+import channelsReducer from "../features/channels/channels.slices";
 import { TypedUseSelectorHook, useDispatch, useSelector } from "react-redux";
-import fetchChannelReducer from "./channel.slice";
+import fetchChannelReducer from "../features/channels/channel.slice";
 
 export const store = configureStore({
 	reducer: {
