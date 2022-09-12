@@ -4,7 +4,7 @@ The app will only allow you to create new channels and delete them if your are l
 
 To run locally, beside installing nodejs you need to:
 
-    Run npm install-all(you can use npm install for all the folders individualy or use this script) && npm start
+    Run npm install && npm run install-services && npm start
     Install OBS
         Add a scene in the bottom menu
         Add a source in the bottom menu(Screen capture)

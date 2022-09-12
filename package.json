@@ -39,7 +39,7 @@
 		"clientInstall": "npm install",
 		"apiInstall": "cd api && npm install",
 		"rtmpserverInstall": "cd rtmpserver && npm install",
-		"install-all": "concurrently \"npm run apiInstall\" \"npm run rtmpserverInstall\" \"npm run clientInstall\" "
+		"install-all": "concurrently \"npm run apiInstall\" \"npm run rtmpserverInstall\" "
 	},
 	"eslintConfig": {
 		"extends": [
